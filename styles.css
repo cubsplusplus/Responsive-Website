@@ -28,8 +28,7 @@
     padding: 0 50px;
 }
 
-#navbar__logo
-{
+#navbar__logo {
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ff0844, #ffb199 100%);
     background-size: 100%;
@@ -37,33 +36,29 @@
     -moz-background-clip: text;
     -webkit-text-fill-color:  transparent;
     -moz-text-fill-color: transparent;
-    display: text;
+    display: flex;
     align-items: center;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
 }
 
-.fa-gem
-{
+.fa-gem {
     margin-right: 0.5rem;
 }
 
-.nav__menu
-{
+.navbar__menu {
     display: flex;
     align-items: center;
     list-style: none;
     text-align: center;
 }
 
-.nav__item
-{
+.nav__item {
     height: 80px;
 }
 
-.navbar__links
-{
+.navbar__links {
     color: #fff;
     display: flex;
     align-items: center;
@@ -73,8 +68,7 @@
     height: 100%;
 }
 
-.navbar_btn
-{
+.navbar_btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,8 +76,7 @@
     width: 100%;
 }
 
-.button
-{
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,12 +91,12 @@
     color: #fff;
 }
 
-.button:hover{
+.button:hover {
     background: #4837ff;
     transition: all 0.3 ease;
 }
 
-navbar__links:hover{
+.navbar__links:hover {
     color: #f77062;
     transition: all 0.3s ease;
 }
